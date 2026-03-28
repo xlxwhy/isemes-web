@@ -11,11 +11,11 @@
         <div class="info-content">
           <div class="info-text">
             <h2>公司简介</h2>
-            <p>ISemes科技成立于2010年，是一家专注于提供创新技术解决方案的高科技企业。我们致力于为客户提供最先进的技术产品和服务，帮助企业实现数字化转型。</p>
-            <p>经过多年的发展，我们已经拥有一支经验丰富的技术团队，涵盖软件开发、数据分析、云计算等多个领域。我们的客户遍布各行各业，包括金融、制造、教育、医疗等。</p>
+            <p>ISemes科技专注于工业智能质检领域，基于人工智能图像识别技术，为纺织行业提供先进的质量检测解决方案。我们的核心产品工业智能质检平台，采用时空联合定位算法，实现24小时不间断疵点检测，帮助企业从源头开始检测降低布损。</p>
+            <p>我们拥有一支由计算机视觉、机器学习和工业自动化领域专家组成的技术团队，致力于将最新的人工智能技术应用于传统制造业，提升生产效率和产品质量。我们的解决方案已经在多家针织厂成功应用，为客户带来了显著的经济效益。</p>
           </div>
           <div class="info-image">
-            <img src="https://console.enterprise.trae.cn/api/ide/v1/text_to_image?prompt=modern%20office%20environment%20with%20technology%20team%20working%20together&image_size=landscape_16_9" alt="公司团队">
+            <img src="https://console.enterprise.trae.cn/api/ide/v1/text_to_image?prompt=industrial%20technology%20team%20working%20on%20AI%20quality%20inspection&image_size=landscape_16_9" alt="公司团队">
           </div>
         </div>
       </div>
@@ -25,11 +25,11 @@
       <div class="container">
         <div class="mission">
           <h3>我们的使命</h3>
-          <p>通过创新技术，帮助企业提升效率，创造价值，推动社会进步。</p>
+          <p>通过人工智能技术，帮助纺织企业实现智能化转型，降低生产成本，提高产品质量，增强市场竞争力。</p>
         </div>
         <div class="vision">
           <h3>我们的愿景</h3>
-          <p>成为行业领先的技术解决方案提供商，引领技术创新的未来。</p>
+          <p>成为全球领先的工业智能质检解决方案提供商，引领纺织行业的智能化革命。</p>
         </div>
       </div>
     </section>
