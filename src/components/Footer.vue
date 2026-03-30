@@ -19,7 +19,7 @@
         <div class="footer-section contact">
           <h3>联系我们</h3>
           <div class="contact-info">
-            <p><span class="icon">📍</span> 北京市海淀区中关村科技园区</p>
+            <p><span class="icon">📍</span> 广州市天河区长湴白沙水路85号27房号</p>
             <p><span class="icon">📞</span> +86 010-12345678</p>
             <p><span class="icon">✉️</span> public@isemes.com</p>
           </div>

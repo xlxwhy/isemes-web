@@ -1,14 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
   <!-- 背景圆形 -->
-  <circle cx="16" cy="16" r="16" fill="#1a365d"/>
-  <!-- 针织图案 -->
-  <path d="M8 12h16M8 16h16M8 20h16" stroke="#ed8936" stroke-width="2" stroke-linecap="round"/>
-  <path d="M12 8v16M16 8v16M20 8v16" stroke="#ed8936" stroke-width="2" stroke-linecap="round"/>
-  <!-- 科技元素 - 连接点 -->
-  <circle cx="16" cy="8" r="2" fill="#3182ce"/>
-  <circle cx="16" cy="24" r="2" fill="#3182ce"/>
-  <circle cx="8" cy="16" r="2" fill="#3182ce"/>
-  <circle cx="24" cy="16" r="2" fill="#3182ce"/>
-  <!-- 科技元素 - 连接线 -->
-  <path d="M8 16L12 12M24 16L20 12M8 16L12 20M24 16L20 20" stroke="#3182ce" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="16" cy="16" r="16" fill="#f0f0f0"/>
+  <!-- 太阳主体 -->
+  <circle cx="16" cy="16" r="12" fill="#ffcc00"/>
+  <!-- 太阳内部图案 -->
+  <path d="M16 8c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zm0 2c3.314 0 6 2.686 6 6s-2.686 6-6 6-6-2.686-6-6 2.686-6 6-6z" fill="#ff9900"/>
+  <!-- 蓝色元素 -->
+  <path d="M12 14c0-1.105.895-2 2-2s2 .895 2 2v4c0 1.105-.895 2-2 2s-2-.895-2-2v-4z" fill="#0066cc"/>
+  <!-- 太阳光芒 -->
+  <path d="M16 4v2" stroke="#ffcc00" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M16 26v2" stroke="#ffcc00" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M4 16h2" stroke="#ffcc00" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M26 16h2" stroke="#ffcc00" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M8.485 8.485l1.414 1.414" stroke="#ffcc00" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M22.091 22.091l1.414 1.414" stroke="#ffcc00" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M8.485 23.515l1.414-1.414" stroke="#ffcc00" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M22.091 9.909l1.414-1.414" stroke="#ffcc00" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- 光芒点 -->
+  <circle cx="16" cy="6" r="1" fill="#ffcc00"/>
+  <circle cx="16" cy="26" r="1" fill="#ffcc00"/>
+  <circle cx="6" cy="16" r="1" fill="#ffcc00"/>
+  <circle cx="26" cy="16" r="1" fill="#ffcc00"/>
+  <circle cx="9.909" cy="9.909" r="1" fill="#ffcc00"/>
+  <circle cx="22.091" cy="22.091" r="1" fill="#ffcc00"/>
+  <circle cx="9.909" cy="22.091" r="1" fill="#ffcc00"/>
+  <circle cx="22.091" cy="9.909" r="1" fill="#ffcc00"/>
 </svg>
