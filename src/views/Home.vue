@@ -236,10 +236,10 @@ export default {
 
 .hero h1 {
   font-size: 3.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   color: #333;
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
   padding-top: 20px;
 }
 

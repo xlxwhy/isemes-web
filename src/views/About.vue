@@ -203,13 +203,19 @@
 }
 
 /* Responsive adjustments */
+@media (max-width: 1024px) {
+  .about-hero h1 {
+    font-size: 2.75rem;
+  }
+}
+
 @media (max-width: 768px) {
   .about-hero {
     padding: 80px 0;
   }
   
   .about-hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
   
   .hero-subtitle {
@@ -237,27 +243,6 @@
   .info-image img {
     height: 300px;
   }
-  
-  .mission-vision {
-    padding: 60px 0;
-  }
-  
-  .mission-vision .container {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-  
-  .mission, .vision {
-    padding: 40px 30px;
-  }
-  
-  .mission h3, .vision h3 {
-    font-size: 1.5rem;
-  }
-  
-  .mission p, .vision p {
-    font-size: 1rem;
-  }
 }
 
 @media (max-width: 480px) {
@@ -269,12 +254,29 @@
     font-size: 1.6rem;
   }
   
-  .info-image img {
-    height: 250px;
+  .mission-vision {
+    padding: 60px 0;
+  }
+  
+  .mission-vision .container {
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
   
   .mission, .vision {
     padding: 30px 20px;
+  }
+  
+  .mission h3, .vision h3 {
+    font-size: 1.5rem;
+  }
+  
+  .mission p, .vision p {
+    font-size: 1rem;
+  }
+  
+  .info-image img {
+    height: 250px;
   }
 }
 </style>

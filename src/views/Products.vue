@@ -398,6 +398,13 @@ export default {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .products-hero h1 {
+    font-size: 2.75rem;
+  }
+}
+
 /* Image Preview Modal */
 .image-preview-modal {
   position: fixed;
@@ -483,7 +490,7 @@ export default {
 
 @media (max-width: 768px) {
   .products-hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
   
   .hero-subtitle {

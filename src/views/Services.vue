@@ -351,13 +351,19 @@ export default {
 }
 
 /* Responsive adjustments */
+@media (max-width: 1024px) {
+  .services-hero h1 {
+    font-size: 2.75rem;
+  }
+}
+
 @media (max-width: 768px) {
   .services-hero {
     padding: 80px 0;
   }
   
   .services-hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
   
   .hero-subtitle {
