@@ -1,5 +1,13 @@
 <template>
-  <nav class="navbar" :class="{ 'navbar-scrolled': scrolled }">
+  <nav class="navbar" :class="{ 
+    'navbar-scrolled': scrolled,
+    'navbar-home': currentRoute === '/',
+    'navbar-about': currentRoute === '/about',
+    'navbar-products': currentRoute === '/products',
+    'navbar-services': currentRoute === '/services',
+    'navbar-jobs': currentRoute === '/jobs',
+    'navbar-contact': currentRoute === '/contact'
+  }">
     <div class="container">
       <div class="logo">
         <router-link to="/" class="logo-text">三思智联</router-link>
@@ -9,6 +17,7 @@
         <router-link to="/about" class="nav-link" @click="menuOpen = false; scrollToTop()">关于我们</router-link>
         <router-link to="/products" class="nav-link" @click="menuOpen = false; scrollToTop()">产品</router-link>
         <router-link to="/services" class="nav-link" @click="menuOpen = false; scrollToTop()">服务</router-link>
+        <router-link to="/jobs" class="nav-link" @click="menuOpen = false; scrollToTop()">招聘广场</router-link>
         <router-link to="/contact" class="nav-link" @click="menuOpen = false; scrollToTop()">联系我们</router-link>
       </div>
       <button class="menu-toggle" @click="menuOpen = !menuOpen; if (!menuOpen) scrollToTop()" :class="{ 'menu-toggle-open': menuOpen }">
@@ -25,14 +34,21 @@ export default {
   data() {
     return {
       scrolled: false,
-      menuOpen: false
+      menuOpen: false,
+      currentRoute: ''
     }
   },
   mounted() {
     window.addEventListener('scroll', this.handleScroll)
+    this.currentRoute = this.$route.path
   },
   beforeUnmount() {
     window.removeEventListener('scroll', this.handleScroll)
+  },
+  watch: {
+    '$route.path'(newPath) {
+      this.currentRoute = newPath
+    }
   },
   methods: {
     handleScroll() {
@@ -60,8 +76,24 @@ export default {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Page-specific navbar colors */
+.navbar-home {
+  background-color: transparent;
+}
+
+.navbar-about,
+.navbar-products,
+.navbar-services,
+.navbar-contact {
+  background-color: var(--primary-color);
+}
+
+.navbar-jobs {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
 .navbar-scrolled {
-  background-color: white;
+  background-color: white !important;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   position: fixed;
   padding: 16px 0;

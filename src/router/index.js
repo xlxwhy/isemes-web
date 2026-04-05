@@ -25,6 +25,26 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: () => import('../views/Contact.vue')
+  },
+  {
+    path: '/jobs',
+    name: 'Jobs',
+    component: () => import('../views/Jobs.vue')
+  },
+  {
+    path: '/jobs/employers',
+    name: 'JobsEmployers',
+    component: () => import('../views/JobsEmployers.vue')
+  },
+  {
+    path: '/jobs/employees',
+    name: 'JobsEmployees',
+    component: () => import('../views/JobsEmployees.vue')
+  },
+  {
+    path: '/jobs/:id',
+    name: 'JobDetail',
+    component: () => import('../views/JobDetail.vue')
   }
 ]
 
